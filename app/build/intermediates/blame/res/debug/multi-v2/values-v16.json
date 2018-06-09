@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/crucialjun/StudioProjects/BirthdayCard2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/home/crucialjun/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/a64bc6d38a806ac67ee2986b69028bbe/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/crucialjun/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/268fd10a6f3e6f7119ea4555532b822f/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context = ".MainActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/stripes" />
+
+    <ImageView
+        android:id="@+id/caketop"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/topcake" />
+
+    <TextView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy"
+        android:fontFamily="@font/lobster"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/caketop"
+        android:layout_centerHorizontal="true"
+        android:textSize="72dp"
+        />
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday"
+        android:fontFamily="@font/lobster"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/happy"
+        android:layout_centerHorizontal="true"
+        android:textSize="72dp"
+        android:layout_marginLeft="22dp"
+        />
+
+    <ImageView
+        android:id="@+id/cakebottom"
+        android:layout_width="272dp"
+        android:layout_height="164dp"
+        android:layout_below="@id/birthday"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/bottomcake" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count your life by smiles not tears. Count your age by friends ,not years. Happy birthday!!"
+        android:layout_below="@id/cakebottom"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/kingthings"
+        android:textColor="@android:color/black"
+        />
+
+    <ImageView
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottomline"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="33dp"
+
+
+        />
+
+</RelativeLayout>
